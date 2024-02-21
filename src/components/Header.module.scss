@@ -1,0 +1,95 @@
+@use "../root" as root;
+
+$font-size: 1rem;
+$border: 1px solid root.$search-input-bgcolor;
+$margin: 0.5rem;
+
+.header {
+  @include root.useFlex(column);
+
+  &__search {
+    display: none;
+  }
+
+  background-color: root.$bg-card;
+  &__actions {
+    @include root.useFlex(row);
+    justify-content: space-evenly;
+
+    &__left,
+    &__right {
+      @include root.useFlex(row);
+      width: 100%;
+      gap: 1rem;
+      margin: $margin;
+      align-items: center;
+    }
+
+    &__left {
+      justify-content: flex-start;
+
+      > .icon {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        font-style: italic;
+        color: blue;
+      }
+    }
+
+    &__right {
+      justify-content: flex-end;
+    }
+  }
+
+  > .search {
+    @include root.useFlex(row);
+    font-size: $font-size;
+    align-items: center;
+    background-color: root.$search-input-bgcolor;
+    margin: 0.2rem $margin;
+    border: $border;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+
+    > input {
+      font-size: $font-size;
+      background-color: root.$search-input-bgcolor;
+      outline: none;
+      border: none;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    &__search {
+      @include root.useFlex(row);
+      font-size: $font-size;
+      align-items: center;
+      background-color: root.$search-input-bgcolor;
+      margin: $margin 0.25rem;
+      border: $border;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      gap: 1rem;
+      width: 50%;
+
+      > input {
+        font-size: $font-size;
+        background-color: root.$search-input-bgcolor;
+        outline: none;
+        border: none;
+      }
+    }
+
+    &__actions__left,
+    &__actions__right {
+      width: auto;
+    }
+
+    > .search {
+      display: none;
+    }
+  }
+}

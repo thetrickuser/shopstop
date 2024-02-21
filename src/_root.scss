@@ -1,0 +1,10 @@
+/* || PRIMARY-STYLES */
+
+$bg-primary: gray;
+$search-input-bgcolor: #e5f7fa;
+$bg-card: white;
+
+@mixin useFlex($flexdir) {
+  display: flex;
+  flex-direction: $flexdir;
+}

@@ -3,8 +3,8 @@ const Input = (props) => {
   return (
     <input
       className={props.styles}
-      type={props.type}
-      placeholder={props.placeholder}
+      type={props.type || "text"}
+      placeholder={props.placeholder || "Search for products"}
     />
   );
 };

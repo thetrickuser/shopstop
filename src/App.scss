@@ -1,0 +1,10 @@
+@use "_root" as root;
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: root.$bg-primary;
+  font-family: "Noto Sans", sans-serif;
+}
