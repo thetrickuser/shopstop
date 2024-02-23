@@ -1,5 +1,12 @@
 const SubCategoryList = (props) => {
-  return <div></div>;
+  return (
+    <>
+      {props.data &&
+        props.data.map((category) => (
+          <div key={category.title}>{category.title}</div>
+        ))}
+    </>
+  );
 };
 
 export default SubCategoryList;

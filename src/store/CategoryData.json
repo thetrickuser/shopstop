@@ -16,90 +16,6 @@
     ]
   },
   {
-    "img": "./grocery.jpg",
-    "title": "Grocery"
-  },
-  {
-    "img": "./electronics.jpg",
-    "title": "Electronics",
-    "subcategory": [
-      {
-        "title": "Mobile"
-      },
-      {
-        "title": "Laptop"
-      }
-    ]
-  },
-  {
-    "img": "./grocery.jpg",
-    "title": "Grocery"
-  },
-  {
-    "img": "./electronics.jpg",
-    "title": "Electronics",
-    "subcategory": [
-      {
-        "title": "Mobile"
-      },
-      {
-        "title": "Laptop"
-      }
-    ]
-  },
-  {
-    "img": "./grocery.jpg",
-    "title": "Grocery"
-  },
-  {
-    "img": "./electronics.jpg",
-    "title": "Electronics",
-    "subcategory": [
-      {
-        "title": "Mobile"
-      },
-      {
-        "title": "Laptop"
-      }
-    ]
-  },
-  {
-    "img": "./grocery.jpg",
-    "title": "Grocery"
-  },
-  {
-    "img": "./electronics.jpg",
-    "title": "Electronics",
-    "subcategory": [
-      {
-        "title": "Mobile"
-      },
-      {
-        "title": "Laptop"
-      }
-    ]
-  },
-  {
-    "img": "./grocery.jpg",
-    "title": "Grocery"
-  },
-  {
-    "img": "./grocery.jpg",
-    "title": "Grocery"
-  },
-  {
-    "img": "./grocery.jpg",
-    "title": "Grocery"
-  },
-  {
-    "img": "./grocery.jpg",
-    "title": "Grocery"
-  },
-  {
-    "img": "./grocery.jpg",
-    "title": "Grocery"
-  },
-  {
     "img": "./fashion.jpg",
     "title": "Fashion",
     "subcategory": [
@@ -138,42 +54,6 @@
       },
       {
         "title": "Kid's Apparels"
-      }
-    ]
-  },
-  {
-    "img": "./electronics.jpg",
-    "title": "Electronics",
-    "subcategory": [
-      {
-        "title": "Mobile"
-      },
-      {
-        "title": "Laptop"
-      }
-    ]
-  },
-  {
-    "img": "./electronics.jpg",
-    "title": "Electronics",
-    "subcategory": [
-      {
-        "title": "Mobile"
-      },
-      {
-        "title": "Laptop"
-      }
-    ]
-  },
-  {
-    "img": "./electronics.jpg",
-    "title": "Electronics",
-    "subcategory": [
-      {
-        "title": "Mobile"
-      },
-      {
-        "title": "Laptop"
       }
     ]
   }

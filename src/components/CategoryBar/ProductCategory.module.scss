@@ -13,9 +13,36 @@
     height: 9vh;
   }
 
-  > p {
+  p {
     margin: 0;
     padding: 0;
+  }
+
+  &__action {
+    @include root.useFlex(row);
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.subcategory-list {
+  display: none;
+}
+
+.category:hover .subcategory-dropdown {
+  transform: rotate(180deg);
+  transition: all 0.2s ease-in-out;
+  color: blue;
+}
+
+.category:hover {
+  .subcategory-list {
+    display: block;
+  }
+
+  p {
+    color: blue;
   }
 }
 
@@ -25,5 +52,11 @@
       width: 9vw;
       height: 16vh;
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subcategory {
+    display: none;
   }
 }
