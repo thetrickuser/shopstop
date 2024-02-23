@@ -1,0 +1,5 @@
+@use "../../root" as root;
+
+.categoryBar {
+    @include root.useFlex(row);
+}
