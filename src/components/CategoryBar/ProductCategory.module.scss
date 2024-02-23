@@ -1,3 +1,29 @@
+@use "../../root" as root;
+
 .category {
-    font-size: 2rem;
+  @include root.useFlex(column);
+  align-items: center;
+  padding: 1rem;
+  background: root.$bg-card;
+  border-radius: 1rem;
+
+  > img {
+    border-radius: 50%;
+    width: 16vw;
+    height: 9vh;
+  }
+
+  > p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .category {
+    > img {
+      width: 9vw;
+      height: 16vh;
+    }
+  }
 }

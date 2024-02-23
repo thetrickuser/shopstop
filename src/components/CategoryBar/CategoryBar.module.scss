@@ -1,5 +1,22 @@
 @use "../../root" as root;
 
 .categoryBar {
-    @include root.useFlex(row);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 26%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  background: root.$bg-card;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .categoryBar {
+    grid-auto-columns: 18%;
+  }
 }

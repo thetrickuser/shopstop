@@ -1,0 +1,180 @@
+[
+  {
+    "img": "./grocery.jpg",
+    "title": "Grocery"
+  },
+  {
+    "img": "./electronics.jpg",
+    "title": "Electronics",
+    "subcategory": [
+      {
+        "title": "Mobile"
+      },
+      {
+        "title": "Laptop"
+      }
+    ]
+  },
+  {
+    "img": "./grocery.jpg",
+    "title": "Grocery"
+  },
+  {
+    "img": "./electronics.jpg",
+    "title": "Electronics",
+    "subcategory": [
+      {
+        "title": "Mobile"
+      },
+      {
+        "title": "Laptop"
+      }
+    ]
+  },
+  {
+    "img": "./grocery.jpg",
+    "title": "Grocery"
+  },
+  {
+    "img": "./electronics.jpg",
+    "title": "Electronics",
+    "subcategory": [
+      {
+        "title": "Mobile"
+      },
+      {
+        "title": "Laptop"
+      }
+    ]
+  },
+  {
+    "img": "./grocery.jpg",
+    "title": "Grocery"
+  },
+  {
+    "img": "./electronics.jpg",
+    "title": "Electronics",
+    "subcategory": [
+      {
+        "title": "Mobile"
+      },
+      {
+        "title": "Laptop"
+      }
+    ]
+  },
+  {
+    "img": "./grocery.jpg",
+    "title": "Grocery"
+  },
+  {
+    "img": "./electronics.jpg",
+    "title": "Electronics",
+    "subcategory": [
+      {
+        "title": "Mobile"
+      },
+      {
+        "title": "Laptop"
+      }
+    ]
+  },
+  {
+    "img": "./grocery.jpg",
+    "title": "Grocery"
+  },
+  {
+    "img": "./grocery.jpg",
+    "title": "Grocery"
+  },
+  {
+    "img": "./grocery.jpg",
+    "title": "Grocery"
+  },
+  {
+    "img": "./grocery.jpg",
+    "title": "Grocery"
+  },
+  {
+    "img": "./grocery.jpg",
+    "title": "Grocery"
+  },
+  {
+    "img": "./fashion.jpg",
+    "title": "Fashion",
+    "subcategory": [
+      {
+        "title": "Men's Top Wear"
+      },
+      {
+        "title": "Men's Bottom Wear"
+      },
+      {
+        "title": "Men's Footwear"
+      },
+      {
+        "title": "Men's Apparels"
+      },
+      {
+        "title": "Women's Top Wear"
+      },
+      {
+        "title": "Women's Bottom Wear"
+      },
+      {
+        "title": "Women's Footwear"
+      },
+      {
+        "title": "Women's Apparels"
+      },
+      {
+        "title": "Kid's Top Wear"
+      },
+      {
+        "title": "Kid's Bottom Wear"
+      },
+      {
+        "title": "Kid's Footwear"
+      },
+      {
+        "title": "Kid's Apparels"
+      }
+    ]
+  },
+  {
+    "img": "./electronics.jpg",
+    "title": "Electronics",
+    "subcategory": [
+      {
+        "title": "Mobile"
+      },
+      {
+        "title": "Laptop"
+      }
+    ]
+  },
+  {
+    "img": "./electronics.jpg",
+    "title": "Electronics",
+    "subcategory": [
+      {
+        "title": "Mobile"
+      },
+      {
+        "title": "Laptop"
+      }
+    ]
+  },
+  {
+    "img": "./electronics.jpg",
+    "title": "Electronics",
+    "subcategory": [
+      {
+        "title": "Mobile"
+      },
+      {
+        "title": "Laptop"
+      }
+    ]
+  }
+]
