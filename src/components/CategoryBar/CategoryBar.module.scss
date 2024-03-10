@@ -17,6 +17,7 @@
 
 @media screen and (orientation: landscape) {
   .categoryBar {
-    grid-auto-columns: 18%;
+    grid-auto-columns: 14%;
+    overflow: visible;
   }
 }

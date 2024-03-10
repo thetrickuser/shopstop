@@ -6,6 +6,12 @@ const Home = () => {
     <div>
       <Header />
       <CategoryBar />
+      <section>
+        <div>RecommendedProducts</div>
+      </section>
+      <section>
+        <div>FeaturedProducts</div>
+      </section>
     </div>
   );
 };

@@ -20,40 +20,112 @@
     "title": "Fashion",
     "subcategory": [
       {
-        "title": "Men's Top Wear"
+        "title": "Men",
+        "subcategory": [
+          {
+            "title": "Men's Top Wear"
+          },
+          {
+            "title": "Men's Bottom Wear"
+          },
+          {
+            "title": "Men's Footwear"
+          },
+          {
+            "title": "Men's Apparels"
+          }
+        ]
       },
       {
-        "title": "Men's Bottom Wear"
+        "title": "Women",
+        "subcategory": [
+          {
+            "title": "Women's Top Wear"
+          },
+          {
+            "title": "Women's Bottom Wear"
+          },
+          {
+            "title": "Women's Footwear"
+          },
+          {
+            "title": "Women's Apparels"
+          }
+        ]
       },
       {
-        "title": "Men's Footwear"
+        "title": "Kids",
+        "subcategory": [
+          {
+            "title": "Kid's Top Wear"
+          },
+          {
+            "title": "Kid's Bottom Wear"
+          },
+          {
+            "title": "Kid's Footwear"
+          },
+          {
+            "title": "Kid's Apparels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "img": "./fashion.jpg",
+    "title": "Fashion",
+    "subcategory": [
+      {
+        "title": "Men",
+        "subcategory": [
+          {
+            "title": "Men's Top Wear"
+          },
+          {
+            "title": "Men's Bottom Wear"
+          },
+          {
+            "title": "Men's Footwear"
+          },
+          {
+            "title": "Men's Apparels"
+          }
+        ]
       },
       {
-        "title": "Men's Apparels"
+        "title": "Women",
+        "subcategory": [
+          {
+            "title": "Women's Top Wear"
+          },
+          {
+            "title": "Women's Bottom Wear"
+          },
+          {
+            "title": "Women's Footwear"
+          },
+          {
+            "title": "Women's Apparels"
+          }
+        ]
       },
       {
-        "title": "Women's Top Wear"
-      },
-      {
-        "title": "Women's Bottom Wear"
-      },
-      {
-        "title": "Women's Footwear"
-      },
-      {
-        "title": "Women's Apparels"
-      },
-      {
-        "title": "Kid's Top Wear"
-      },
-      {
-        "title": "Kid's Bottom Wear"
-      },
-      {
-        "title": "Kid's Footwear"
-      },
-      {
-        "title": "Kid's Apparels"
+        "title": "Kids",
+        "subcategory": [
+          {
+            "title": "Kid's Top Wear"
+          },
+          {
+            "title": "Kid's Bottom Wear"
+          },
+          {
+            "title": "Kid's Footwear"
+          },
+          {
+            "title": "Kid's Apparels"
+          }
+        ]
       }
     ]
   }
