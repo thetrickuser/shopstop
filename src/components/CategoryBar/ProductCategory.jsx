@@ -7,7 +7,7 @@ const ProductCategory = (props) => {
     <div className={styles.category}>
       <img src={props.img} height="100" width="100" />
       <div className={styles["category__item"]}>
-        <span>{props.title}</span>
+        <span className={styles["category__item__title"]}>{props.title}</span>
         {props.subcategory && (
           <RxCaretDown
             style={{ fontSize: "1.5rem" }}
@@ -22,7 +22,7 @@ const ProductCategory = (props) => {
               {category.title}
               {category.subcategory && (
                 <>
-                  <span>
+                  <span className={styles["subcategory-item__dropdown"]}>
                     <RxCaretRight style={{ fontSize: "1.5rem" }} />{" "}
                   </span>
                   <ul className={styles["innerCategory-list"]}>

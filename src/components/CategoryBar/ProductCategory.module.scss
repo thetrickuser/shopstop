@@ -1,10 +1,11 @@
 @use "../../root" as root;
 
+$subcategory-border-radius: 0.5rem;
+
 .category {
   @include root.useFlex(column);
   align-items: center;
   padding: 1rem;
-  // background: root.$bg-card;
   border-radius: 1rem;
   position: relative;
 
@@ -24,71 +25,87 @@
     gap: 0.5rem;
     align-items: center;
     justify-content: center;
+
+    &__dropdown {
+      transform: rotate(0deg);
+      transition: all 0.2s ease-in-out;
+    }
   }
 
-  &:hover &__item__dropdown {
-    transform: rotate(180deg);
-    transition: all 0.2s ease-in-out;
-    color: blue;
+  &:hover {
+    .category__item__dropdown {
+      transform: rotate(180deg);
+      transition: all 0.2s ease-in-out;
+      color: blue;
+    }
+
+    .subcategory-list {
+      display: block;
+    }
+
+    .category__item__title {
+      color: blue;
+    }
+  }
+}
+
+.selected {
+  background-color: aquamarine;
+}
+
+.subcategory-list,
+.innerCategory-list {
+  display: none;
+  position: absolute;
+  background-color: root.$bg-card;
+  padding: 0;
+  box-shadow: 0 0 0.5rem black;
+  border-radius: $subcategory-border-radius;
+  width: 20vw;
+
+  li:nth-child(1) {
+    border-radius: $subcategory-border-radius $subcategory-border-radius 0 0;
+  }
+
+  li:last-child {
+    border-radius: 0 0 $subcategory-border-radius $subcategory-border-radius;
   }
 }
 
 .subcategory-list {
-  display: none;
-  position: absolute;
   top: 95%;
   margin-top: 0;
-  background-color: root.$bg-card;
-  padding: 0.5rem 1rem;
-  box-shadow: 0 0 0.5rem black;
-  border-radius: 0.5rem;
-  width: 100%;
 
   .subcategory-item {
     @include root.useFlex(row);
-    width: 100%;
     gap: 1rem;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.5rem;
     justify-content: space-between;
+    align-items: center;
 
     &:hover {
       .innerCategory-list {
         display: block;
       }
+      @extend .selected;
     }
   }
 }
 
 .innerCategory-list {
-  display: none;
-  position: absolute;
   left: 100%;
   top: 0;
-  background-color: root.$bg-card;
-  box-shadow: 0 0 0.5rem black;
-  border-radius: 0.5rem;
-  width: 100%;
 
   .innerCategory-item {
-    padding: 1rem;
-    width: 100%;
+    padding: 0.5rem 0.5rem;
     display: flex;
     justify-content: flex-start;
 
     &:hover {
-      font-weight: bolder;
       cursor: pointer;
+      font-weight: bolder;
+      @extend .selected;
     }
-  }
-}
-
-.category:hover {
-  .subcategory-list {
-    display: block;
-  }
-
-  p {
-    color: blue;
   }
 }
 
